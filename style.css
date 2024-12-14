@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #444;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: white;
+    margin-top: 2rem;
+}
+/* Updated header and footer colors */
+#header {
+    background: linear-gradient(135deg, #6a1b9a, #f06292); /* Purple to Pink gradient */
+}
+
+#footer {
+    background: #6a1b9a; /* Solid purple matching the gradient */
+}
+
+/* Card hover effect */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Apply Poppins font to body */
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;  /* Set the base font size */
+}
+
+/* Apply a different font style to headings */
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;  /* Bold font weight */
+}
+
+/* Apply a different font style to links */
+a {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Styling for paragraphs */
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;  /* Light weight */
+    line-height: 1.6;
+}
+/* Custom Styles for Skills Section */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    min-height: 350px;  /* Ensure cards are of equal height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  /* Space out content */
+    padding: 20px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;  /* Ensure body stretches to full height */
+}
+
+.card-title {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 15px;  /* Provide spacing between title and description */
+}
+
+.card-text {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    font-weight: bold;
+}
+
+/* Adjusting the icon size for better visibility */
+.card i {
+    font-size: 40px;
+    margin-bottom: 20px;  /* Increase space between icon and text */
+}
+
+/* Ensure all cards are of similar size in terms of width */
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-wrapper .card {
+    flex-basis: 30%; /* Set each card to take up 30% of the width */
+    margin-bottom: 30px; /* Space between cards */
+}
+
+/* Responsive Adjustments for Small Screens */
+@media (max-width: 768px) {
+    .card-wrapper .card {
+        flex-basis: 45%; /* Take up 45% width on smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .card-wrapper .card {
+        flex-basis: 100%; /* Full width on very small screens */
+    }
+}
+/* Project Description Styling */
+.project-description {
+    margin-top: 15px;
+    font-size: 1rem;
+    color: #666;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styles */
+.btn {
+    background-color: #6a1b9a; /* Initial background color */
+    color: white; /* Text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for color change */
+}
+
+.btn:hover {
+    background-color: #f06292; /* Lighter color when hovering */
+    color: #fff; /* Keep text white */
+}
+
+/* Optional: Focus effect when button is clicked */
+.btn:focus {
+    outline: none; /* Remove default outline on focus */
+    box-shadow: 0 0 5px #f06292; /* Add a shadow to make the button stand out */
+}
